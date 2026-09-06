@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><title>Neighborhood</title>
-<link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neighborhood</title>
+<style>
+body{ font-family: Arial, Verdana; background-color: #000000; color: #FFFFFF; margin: 20px; }
+h1{ text-align: center; font-size: 42px; padding: 15px; color: #FFFFFF; }
+h2{ font-size: 30px; color: #0DFF92; }
+p{ font-size: 24px; line-height: 1.5; }
+img{ border: 5px dashed #FFFFFF; }
+li{ display: inline-block; width: 200px; }
+div{ min-height: 125px; padding: 20px; border: 3px solid #FFFFFF; }
+nav{ display: inline-block; width: 80%; }
+nav img{ width: 10%; }
+.grid{ display: grid; grid-template-columns: 40% 40%; justify-content: center; align-items: start; row-gap: 20px; }
+.grid img{ width: 100%; }
+.flex{ display: flex; flex-wrap: wrap; justify-content: space-around; }
+main{ background-color: #FFFFFF; color: #000000; }
+</style>
 </head>
 <body>
+<a href="#main">Skip to Main Content</a>
 <header><h1>Neighborhood</h1><nav><ul>
 <li><a href="index.html">Home</a></li>
 <li><a href="neighborhood.html">Neighborhood</a></li>
 <li><a href="parks.html">Parks</a></li>
 </ul></nav></header>
-<main><p>Neighborhood page content.</p></main>
-<footer><p>Footer</p></footer>
+<main id="main">
+<div class="grid">
+<img src="https://via.placeholder.com/150" alt="Image 1">
+<img src="https://via.placeholder.com/150" alt="Image 2">
+<img src="https://via.placeholder.com/150" alt="Image 3">
+<img src="https://via.placeholder.com/150" alt="Image 4">
+</div>
+<p>This is neighborhood page content using grid.</p>
+</main>
+<footer><p>Footer Content</p></footer>
 </body>
 </html>
-root@b9ba762ca6af:/home/coder/project# 
