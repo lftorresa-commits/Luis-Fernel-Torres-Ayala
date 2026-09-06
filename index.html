@@ -7,20 +7,47 @@
 body{ font-family: Arial; background: #dedede; }
 header{ background: #0D2C54; padding: 20px; }
 footer{ background-color: #0D2C54; padding: 20px; color:white; text-align:center; }
-li{ display: inline-block; width: 200px; }
-h1{ text-align: center; font-family: Georgia,'Times New Roman',serif; color: #FFFFFF; }
+/* li{ display: inline-block; width: 200px; } */
 p{ line-height: 1.9; }
 nav a{ color:white; text-decoration:none; }
+  nav{
+  display: inline-block;
+  width: 80%;
+}
+nav img{
+  width: 10%;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: start;
+  row-gap: 20px;
+}
+.grid img{
+  width: 100%;
+}
+.flex{
+  display: flex;  flex-wrap: wrap;
+  justify-content: space-around;
+}
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 main{ background:white; padding:20px; }
 </style>
 </head>
 <body>
+  <a href="#main">Saltar al contenido principal</a>
 <header><h1>Welcome</h1><nav><ul>
 <li><a href="index.html">Home</a></li>
 <li><a href="neighborhood.html">Neighborhood</a></li>
 <li><a href="parks.html">Parks</a></li>
 </ul></nav></header>
-<main><p>This is the main content. I am learning CSS in Coursera.</p><p>Second paragraph to test line-height.</p></main>
-<footer><p>Footer Content</p></footer>
+<main id="main">
+<p>Welcome to my site. This is the main content for the final project.</p>
+<p>Here is more information about the project requirements.</p>
+</main>
+<footer><p>Footer Content - Created by Luis Torres</p></footer>
 </body>
 </html>
