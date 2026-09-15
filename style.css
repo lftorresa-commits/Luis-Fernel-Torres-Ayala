@@ -56,3 +56,17 @@ main{
  background-color: #FFFFFF;
  color: #000000;
 }
+nav a {
+  color: #FFFFFF;
+  background-color: #000000;
+  text-decoration: underline;
+}
+
+.skip a {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+main a {
+  color: #0000CC;
+}
