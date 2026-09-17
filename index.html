@@ -4,49 +4,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Final Project</title>
-<style>
-main{color:#000000; background-color:#FFFFFF; display:grid; grid-template-columns:1fr 1fr; gap:15px; padding:15px;}
-main h2{color:#000000; background-color:#FFFFFF; grid-column:1 / -1;}
-main a{color:#0000CC; background-color:#FFFFFF;}
-main img{width:200px; border:3px solid #000000; padding:10px; border-radius:15px; margin:10px;}
-nav{background-color:#000000; padding:15px; display:flex; justify-content:center; flex-wrap:wrap; gap:10px;}
-nav a{color:#FFFFFF; background-color:#000000; text-decoration:none; padding:8px 15px; margin:5px; border-radius:5px; display:inline-block;}
-a[href="#main"]{position:absolute; left:-10000px; width:1px; height:1px; overflow:hidden; color:#FFFFFF; background-color:#000000;}
-a[href="#main"]:focus{position:fixed; left:10px; top:10px; width:auto; height:auto; padding:10px; border:2px solid #FFFFFF; background-color:#000000; color:#FFFFFF; z-index:999;}
-nav a:hover{background-color:#FFFFFF; color:#000000; transform:scale(1.1);}
-main img:hover{border-color:#0000CC; transform:scale(1.05); filter:brightness(1.1);}
-main img:nth-child(odd){border-color:#000000; background-color:#E0E0E0;}
-main img:nth-child(even){border-color:#333333; background-color:#F5F5F5;}
-main img:nth-child(3n){border-style:dashed; border-width:5px;}
-</style>
-main{color:#000000; background-color:#FFFFFF; display:grid; grid-template-columns:1fr 1fr; gap:15px; padding:15px;}
-main h2{color:#000000; background-color:#FFFFFF; grid-column:1 / -1;}
-main a{color:#0000CC; background-color:#FFFFFF;}
-main img{width:200px; border:3px solid #000000; padding:10px; border-radius:15px; margin:10px;}
-nav{background-color:#000000; padding:15px; display:flex; justify-content:center; flex-wrap:wrap; gap:10px;}
-nav a{color:#FFFFFF; background-color:#000000; text-decoration:none; padding:8px 15px; margin:5px; border-radius:5px; display:inline-block;}
-a[href="#main"]{position:absolute; left:-10000px; width:1px; height:1px; overflow:hidden; color:#FFFFFF; background-color:#000000;}
-a[href="#main"]:focus{position:fixed; left:10px; top:10px; width:auto; height:auto; padding:10px; border:2px solid #FFFFFF; background-color:#000000; color:#FFFFFF; z-index:999;}
-nav a:hover{background-color:#FFFFFF; color:#000000; transform:scale(1.1);}
-main img:hover{border-color:#0000CC; transform:scale(1.05); filter:brightness(1.1);}
-main img:nth-child(odd){border-color:#000000; background-color:#E0E0E0;}
-main img:nth-child(even){border-color:#333333; background-color:#F5F5F5;}
-main img:nth-child(3n){border-style:dashed; border-width:5px;}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <a href="#main">Skip to Main Content</a>
-<header><h1>Final Project</h1>
-<nav><ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="neighborhood.html">Neighborhood</a></li>
-<li><a href="parks.html">Parks</a></li>
-</ul></nav></header>
+<header>
+<nav>
+<a href="index.html">Home</a>
+<a href="neighborhood.html">Neighborhood</a>
+<a href="parks.html">Parks</a>
+</nav>
+<h1>Final Project</h1>
+</header>
 <main id="main">
 <h2>Welcome to my final project page.</h2>
-<img src="https://placehold.co/150" alt="Welcome image">
 <p>This page meets all CSS requirements for the course.</p>
+<img src="https://placehold.co/150" alt="Placeholder image">
 </main>
-<footer><p>Footer Content</p></footer>
 </body>
 </html>
